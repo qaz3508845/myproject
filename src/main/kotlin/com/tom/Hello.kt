@@ -2,9 +2,11 @@ package com.tom
 
 fun main(args: Array<String>) {
 //    println("Hello kotlin");
-//    Human().hello()
-    val h= Human();
-    h.hello()
+    Human().hello()
+
+    var age = 19;
+    var name : String;
+    name="Dent"
 }
 
 class Human{
